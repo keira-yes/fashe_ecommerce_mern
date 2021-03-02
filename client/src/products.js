@@ -2,7 +2,7 @@ const products = [
   {
     _id: '1',
     name: 'Bag Military Black',
-    image: '/images/1.jpg',
+    image: '1.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, veritatis!',
     brand: 'Benetton',
     category: 'Bags',
@@ -14,7 +14,7 @@ const products = [
   {
     _id: '2',
     name: 'Denim jacket blue',
-    image: '/images/2.jpg',
+    image: '2.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet exercitationem iure nostrum officia praesentium! Est ratione sint temporibus? Expedita nulla repudiandae ullam? Amet animi deserunt nam perspiciatis rem sunt, tempore.',
     brand: 'Mango',
     category: 'Clothes',
@@ -26,7 +26,7 @@ const products = [
   {
     _id: '3',
     name: 'Black watch',
-    image: '/images/3.jpg',
+    image: '3.jpg',
     description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque, deleniti, ea est, eveniet facere harum iste odio quibusdam ratione recusandae similique sit temporibus unde!',
     brand: 'Guess',
     category: 'Watches',
@@ -38,7 +38,7 @@ const products = [
   {
     _id: '4',
     name: 'Frayed denim shorts high waist',
-    image: '/images/4.jpg',
+    image: '4.jpg',
     description: 'Lorem ipsum dolor sit amet.',
     brand: 'Mango',
     category: 'Clothes',
@@ -50,7 +50,7 @@ const products = [
   {
     _id: '5',
     name: 'Сrossbody bag Glossy Silver',
-    image: '/images/5.jpg',
+    image: '5.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque beatae consectetur distinctio dolor enim fuga iure iusto maiores nam necessitatibus nesciunt nisi nobis numquam obcaecati omnis perspiciatis, praesentium quaerat, quidem quod rerum soluta vero voluptates. Beatae expedita odio repudiandae.',
     brand: 'Max Mara',
     category: 'Bags',
@@ -62,7 +62,7 @@ const products = [
   {
     _id: '6',
     name: 'Light grey shirt',
-    image: '/images/6.jpg',
+    image: '6.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta laborum odio officiis quidem. Alias consectetur consequuntur dicta. Vero?',
     brand: 'Benetton',
     category: 'Clothes',
@@ -74,7 +74,7 @@ const products = [
   {
     _id: '7',
     name: 'White sneakers',
-    image: '/images/7.jpg',
+    image: '7.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, veritatis!',
     brand: 'Benetton',
     category: 'Shoes',
@@ -86,7 +86,7 @@ const products = [
   {
     _id: '8',
     name: 'Brown watch',
-    image: '/images/8.jpg',
+    image: '8.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet exercitationem iure nostrum officia praesentium! Est ratione sint temporibus? Expedita nulla repudiandae ullam? Amet animi deserunt nam perspiciatis rem sunt, tempore.',
     brand: 'Mango',
     category: 'Watches',
@@ -98,7 +98,7 @@ const products = [
   {
     _id: '9',
     name: 'T-shirt DF basic oversize long',
-    image: '/images/9.jpg',
+    image: '9.jpg',
     description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque, deleniti, ea est, eveniet facere harum iste odio quibusdam ratione recusandae similique sit temporibus unde!',
     brand: 'Guess',
     category: 'Clothes',
@@ -110,7 +110,7 @@ const products = [
   {
     _id: '10',
     name: 'Joggers Lounge light grey',
-    image: '/images/10.jpg',
+    image: '10.jpg',
     description: 'Lorem ipsum dolor sit amet.',
     brand: 'Mango',
     category: 'Clothes',
@@ -122,7 +122,7 @@ const products = [
   {
     _id: '11',
     name: 'Denim chill joggers',
-    image: '/images/11.jpg',
+    image: '11.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque beatae consectetur distinctio dolor enim fuga iure iusto maiores nam necessitatibus nesciunt nisi nobis numquam obcaecati omnis perspiciatis, praesentium quaerat, quidem quod rerum soluta vero voluptates. Beatae expedita odio repudiandae.',
     brand: 'Max Mara',
     category: 'Clothes',
@@ -134,7 +134,7 @@ const products = [
   {
     _id: '12',
     name: 'White t-shirt basic',
-    image: '/images/12.jpg',
+    image: '12.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta laborum odio officiis quidem. Alias consectetur consequuntur dicta. Vero?',
     brand: 'Guess',
     category: 'Clothes',

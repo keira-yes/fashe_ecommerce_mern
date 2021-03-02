@@ -4,9 +4,10 @@ const Product = ({ product }) => {
   return (
     <Card className="my-2">
       <a href={`/product/${product.id}`}>
-        <Card.Img src={product.image} variant="top" />
+        <Card.Img src={`/images/products/${product.image}`} variant="top" />
       </a>
       <Card.Body>
+        <Card.Text>{product.brand}</Card.Text>
         <a href={`/product/${product.id}`}>
           <Card.Title>{product.name}</Card.Title>
         </a>
