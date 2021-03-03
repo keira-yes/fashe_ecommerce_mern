@@ -1,4 +1,5 @@
 import { Card } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 import Rating from './Rating';
 
 const Product = ({ product }) => {
@@ -20,6 +21,10 @@ const Product = ({ product }) => {
       </Card.Body>
     </Card>
   )
+}
+
+Product.propTypes = {
+  product: PropTypes.object.isRequired
 }
 
 export default Product;
