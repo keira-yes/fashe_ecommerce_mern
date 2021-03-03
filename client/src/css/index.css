@@ -39,6 +39,12 @@ strong {
   letter-spacing: 1px;
 }
 
+.card-reviews {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .card-price {
   display: block;
   font-size: 1rem;
