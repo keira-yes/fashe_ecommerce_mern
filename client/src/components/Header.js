@@ -5,7 +5,9 @@ const Header = () => {
     <header>
       <Navbar bg="light" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="/">Fashe</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img src="/images/fashe_logo.svg" alt="Fashe logo"/>
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">

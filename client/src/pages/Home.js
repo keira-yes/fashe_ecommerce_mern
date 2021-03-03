@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <main className="py-5">
       <Container>
-        <h1>Featured products</h1>
+        <h1 className="text-center">Featured products</h1>
         <Row>
           {products.map(item => (
-            <Col key={item._id} sm={12} md={6} lg={4} xl={3}>
+            <Col key={item.id} sm={12} md={6} lg={4} xl={3} className="my-3">
               <Product product={item} />
             </Col>
           ))}
