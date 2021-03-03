@@ -39,10 +39,14 @@ strong {
   letter-spacing: 1px;
 }
 
-.card-reviews {
+.card-rating {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card-rating i {
+    margin-right: 2px;
 }
 
 .card-price {
