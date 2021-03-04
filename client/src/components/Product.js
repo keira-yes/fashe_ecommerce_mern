@@ -1,17 +1,18 @@
-import { Card } from 'react-bootstrap';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import { Card } from 'react-bootstrap';
 import Rating from './Rating';
 
 const Product = ({ product }) => {
   return (
     <Card>
-      <a href={`/product/${product.id}`}>
+      <Link to={`/product/${product.id}`}>
         <Card.Img src={`/images/products/${product.image}`} variant="top" />
-      </a>
+      </Link>
       <Card.Body>
         <Card.Text as="span" className="card-brand">{product.brand}</Card.Text>
           <Card.Title as="h3" className="mt-1 mb-2">
-            <a href={`/product/${product.id}`}>{product.name}</a>
+            <Link to={`/product/${product.id}`}>{product.name}</Link>
           </Card.Title>
         <Card.Text className="card-rating">
           <Rating value={product.rating} />

@@ -13,6 +13,7 @@ const Rating = ({ value }) => {
             "fas fa-star-half-alt" :
             "far fa-star"
           }
+          aria-label="Rating star icon"
         >
         </i>
       ))}
