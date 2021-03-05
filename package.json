@@ -1,0 +1,22 @@
+{
+  "name": "fashe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keira-yes/fashe_ecommerce_mern.git"
+  },
+  "author": "Irina Kirillova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keira-yes/fashe_ecommerce_mern/issues"
+  },
+  "homepage": "https://github.com/keira-yes/fashe_ecommerce_mern#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
