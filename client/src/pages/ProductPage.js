@@ -11,7 +11,7 @@ const ProductPage = ({ match }) => {
       setProduct(data);
     }
     fetchProduct();
-  }, [match.params.id]);
+  }, [match]);
 
   return (
     <Row>
