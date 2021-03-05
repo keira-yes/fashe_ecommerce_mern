@@ -12,7 +12,8 @@ const Home = () => {
       setProducts(data);
     }
     fetchProducts();
-  }, [])
+  }, []);
+
   return (
     <>
       <h1 className="text-center">Featured products</h1>

@@ -1,8 +1,17 @@
+import {useEffect, useState} from 'react';
+import axios from 'axios';
 import {Row, Col, Image, ListGroup, ListGroupItem, Button} from "react-bootstrap";
-import products from '../products';
 
 const ProductPage = ({ match }) => {
-  const product = products.find(item => item.id === match.params.id);
+  const [product, setProduct] = useState([]);
+
+  useEffect(() => {
+    const fetchProduct = async() => {
+      const { data } = await axios(`/api/products/${match.params.id}`);
+      setProduct(data);
+    }
+    fetchProduct();
+  }, [match.params.id]);
 
   return (
     <Row>
