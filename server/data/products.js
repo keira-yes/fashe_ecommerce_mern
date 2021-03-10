@@ -1,6 +1,5 @@
 const products = [
   {
-    id: '1',
     name: 'Bag Military Black',
     image: '1.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, veritatis!',
@@ -12,7 +11,6 @@ const products = [
     numReviews: 12,
   },
   {
-    id: '2',
     name: 'Denim jacket blue',
     image: '2.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet exercitationem iure nostrum officia praesentium! Est ratione sint temporibus? Expedita nulla repudiandae ullam? Amet animi deserunt nam perspiciatis rem sunt, tempore.',
@@ -24,7 +22,6 @@ const products = [
     numReviews: 8,
   },
   {
-    id: '3',
     name: 'Black watch',
     image: '3.jpg',
     description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque, deleniti, ea est, eveniet facere harum iste odio quibusdam ratione recusandae similique sit temporibus unde!',
@@ -36,7 +33,6 @@ const products = [
     numReviews: 12,
   },
   {
-    id: '4',
     name: 'Frayed denim shorts high waist',
     image: '4.jpg',
     description: 'Lorem ipsum dolor sit amet.',
@@ -48,7 +44,6 @@ const products = [
     numReviews: 12,
   },
   {
-    id: '5',
     name: 'Сrossbody bag Glossy Silver',
     image: '5.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque beatae consectetur distinctio dolor enim fuga iure iusto maiores nam necessitatibus nesciunt nisi nobis numquam obcaecati omnis perspiciatis, praesentium quaerat, quidem quod rerum soluta vero voluptates. Beatae expedita odio repudiandae.',
@@ -60,7 +55,6 @@ const products = [
     numReviews: 10,
   },
   {
-    id: '6',
     name: 'Light grey shirt',
     image: '6.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta laborum odio officiis quidem. Alias consectetur consequuntur dicta. Vero?',
@@ -72,7 +66,6 @@ const products = [
     numReviews: 12,
   },
   {
-    id: '7',
     name: 'White sneakers',
     image: '7.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, veritatis!',
@@ -84,7 +77,6 @@ const products = [
     numReviews: 12,
   },
   {
-    id: '8',
     name: 'Brown watch',
     image: '8.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet exercitationem iure nostrum officia praesentium! Est ratione sint temporibus? Expedita nulla repudiandae ullam? Amet animi deserunt nam perspiciatis rem sunt, tempore.',
@@ -96,7 +88,6 @@ const products = [
     numReviews: 8,
   },
   {
-    id: '9',
     name: 'T-shirt DF basic oversize long',
     image: '9.jpg',
     description:'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque, deleniti, ea est, eveniet facere harum iste odio quibusdam ratione recusandae similique sit temporibus unde!',
@@ -108,7 +99,6 @@ const products = [
     numReviews: 12,
   },
   {
-    id: '10',
     name: 'Joggers Lounge light grey',
     image: '10.jpg',
     description: 'Lorem ipsum dolor sit amet.',
@@ -120,7 +110,6 @@ const products = [
     numReviews: 12,
   },
   {
-    id: '11',
     name: 'Denim chill joggers',
     image: '11.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque beatae consectetur distinctio dolor enim fuga iure iusto maiores nam necessitatibus nesciunt nisi nobis numquam obcaecati omnis perspiciatis, praesentium quaerat, quidem quod rerum soluta vero voluptates. Beatae expedita odio repudiandae.',
@@ -132,7 +121,6 @@ const products = [
     numReviews: 10,
   },
   {
-    id: '12',
     name: 'White t-shirt basic',
     image: '12.jpg',
     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta laborum odio officiis quidem. Alias consectetur consequuntur dicta. Vero?',
